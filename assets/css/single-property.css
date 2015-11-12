@@ -1,0 +1,327 @@
+.nav,
+.block p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.stage-toggle {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.lang-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    padding: 4px 12px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+}
+
+.stage-toggle:hover,
+.stage-toggle:focus,
+.lang-toggle:hover,
+.lang-toggle:focus {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: rgba(49, 162, 225, 1);
+}
+
+.tel,
+.tel:visited,
+.tel:hover,
+.tel:focus {
+    color: white;    
+    text-decoration: none;
+}
+
+#header-block {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/assets/img/house_front.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*height: 100vh;*/
+}
+
+#header-block h5,
+h6 {
+    font-family: 'Lato', sans-serif;
+}
+
+.text-ribbon-blue-light {
+    background-color: #31a2e1;
+    /*background-color: rgba(49,162,225,0.8);*/
+}
+
+.text-ribbon-blue-dark {
+    background-color: #1B1358;
+}
+
+#header-block .price {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #000;
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #435061;
+}
+
+h3.title:before {
+    content: "\EA82";
+    display: block;
+    color: #31a2e1;
+    font-family: "toolkit-entypo";
+    font-size: 130%;
+}
+
+#about .about-block img {
+    margin: 0 0 10px 0;
+}
+
+.block-alt {
+    background-color: #eff3f5;
+}
+
+.block-dark {
+    background-color: #435061;
+}
+
+#rooms .nav-pills > li {
+	display: inline-block;
+	float: none;	
+	margin: 5px;
+}
+
+#rooms .nav-pills > li a {
+	background-color: rgba(0, 0, 0, 0.4);
+	color: #ffffff;
+}
+
+#rooms .nav-pills > li > a:hover 
+{
+    background-color: rgba(49, 162, 225, 1);
+}
+
+#rooms .nav-pills > li.active > a,
+#rooms .nav-pills > li.active > a:hover,
+#rooms .nav-pills > li.active > a:focus {
+    color: #ffffff;
+    background-color: rgba(49, 162, 225, 1);
+}
+
+#room-select {
+	font-family: 'Lato', sans-serif;
+}
+
+#rooms .tab-pane .photo > img {
+    max-width: 100%;
+}
+
+#rooms .tab-pane p {
+    line-height: 1.4;
+}
+
+#rooms .tab-pane .photo {
+    position: relative;
+    max-width: 100%;
+    border-width: 15px;
+    border-style: solid;
+    border-color: #ffffff;
+    box-shadow: 0 0 3px #d3d9dd;     
+}
+
+#rooms .tab-pane .photo .dimension-label {
+    color: #ffffff;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #ff551a; 
+    padding: 5px;
+}
+
+#rooms .tab-pane .photo .dimension-label h5 {
+    color: #ffffff;
+}
+
+#rooms .list-unstyled li {
+    font-family: 'Lato', sans-serif;
+    padding: 5px 0px;
+}
+
+#rooms .list-unstyled li .icon {
+    padding-right: 5px;
+}
+
+#gallery #blueimp-gallery h3.title:before {
+	content: "";
+}
+
+#gallery #links > a > img {
+	border-width: 5px;
+	border-style: solid;
+	border-color: #ffffff;
+	box-shadow: 0 0 2px #d3d9dd;	
+	margin: 5px;
+}
+
+#location .map {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+#carousel-nearby-places .item .img-responsive {
+    display: block;
+    max-width: 50%;
+    height: auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+#carousel-nearby-places .stat-icon {
+    font-size: 18px;
+    display: block;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+#carousel-nearby-places .statcard-desc {
+    letter-spacing: 0;
+}
+
+#carousel-nearby-places .icon-chevron-thin-left:before {
+  content: "\EA4F";
+}
+#carousel-nearby-places .icon-chevron-thin-right:before {
+  content: "\EA50";
+}
+
+#price .text-ribbon-blue-light {
+    left: 10px;
+    color: #ffffff;
+}
+
+.docs-top {
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+  display: none;
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+}
+.docs-top:hover,
+.docs-top:focus {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .block {
+    padding: 60px 0;
+  }
+}
+
+@media screen and (min-width: 800px) {
+    #rooms .tab-pane .photo {
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    #rooms .tab-pane .photo {
+        border-width: 10px;
+    }
+
+   #rooms .tab-pane .photo .dimension-label h5 {
+        font-size: 12px;
+    }    
+
+    #carousel-nearby-places .statcard h3 {
+        font-size: 18px;
+        line-height: 0.5;
+    }
+
+    #carousel-nearby-places .statcard span.statcard-desc {
+        font-size: 10px;
+        line-height: 0.5;
+    }
+
+    #carousel-nearby-places .statcard span.stat-icon:before {
+        top: 0;
+    }
+}
+
+@media screen and (max-height: 736px) {
+    .block {
+        padding: 40px 30px;
+    }
+}
+
+@media screen and (max-height: 320px) {
+    .block {
+        padding: 30px;
+    }
+
+    #header-block .block-xs-middle {
+        display: table-cell;
+        vertical-align: top;
+    }
+    h1,
+    .h1 {
+        font-size: 22px;
+        margin-top: 10px;
+    }
+    h2,
+    .h2 {
+        font-size: 20px;
+    }
+    h3,
+    .h3 {
+        font-size: 18px;
+    }
+    h4,
+    .h4 {
+        font-size: 14px;
+    }
+    h5,
+    .h5 {
+        font-size: 12px;
+    }
+    h6,
+    .h6 {
+        font-size: 10px;
+    }
+    .btn {
+        font-size: 80%;
+    }   
+}
+
+@media screen and (max-width: 320px) {
+    #about .about-block h4 {
+        font-size: 80%;
+    }
+
+   #rooms .tab-pane .photo .dimension-label h5 {
+        font-size: 10px;
+    }     
+
+    .container {
+    	padding-left: 0px;
+    	padding-right: 0px;
+    }    
+}

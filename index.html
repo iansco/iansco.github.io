@@ -24,6 +24,7 @@
     <meta property="og:description" content="Beautiful 2-bedroom bungalow for sale in Chiang Mai, Thailand. Completely renovated with new flooring, upgraded doors and windows, upgraded electrics and lighting, air-conditioning, a fully-fitted western-style kitchen and completely refurbushed bathrooms." />
     <meta property="og:image" content="http://www.cmhome4sale.com/assets/img/house_front_1.jpg" />
   </head>
+
   <body>
     <!-- Shelf Navigation -->
     <div class="stage-shelf hidden" id="sidebar" style="overflow-y: scroll">
@@ -532,6 +533,12 @@
             </h5>
           <a href="#top" class="btn btn-pill btn-danger m-t m-b" id="back-to-top">Back to Top <span class="icon icon-arrow-up"></span></a>
         </div>
+        <div class="container text-center">
+          <button class="btn btn-primary" type="button" id="button-share-fb">
+            <span class="icon icon-facebook"></span> Share
+          </button>
+          <a href="line://msg/text/Home%20for%20Sale%20-%20Chiang%20Mai%20-%20http%3A%2F%2Fwww.cmhome4sale.com" style="margin-left: 20px"><img src="assets/img/linebutton_40x40_en.png" width="40px" height="40px" alt="LINE it!" /></a>
+        </div>
       </div>
     </div>
     <!-- Include jQuery (required) and the JS -->
@@ -565,6 +572,11 @@
         // (default click behaviour)
         window.location.hash = hash;
       });
+    });
+
+    $("#button-share-fb").on("click", function() {
+      var fbpopup = window.open("https://www.facebook.com/sharer/sharer.php?u=http://www.cmhome4sale.com", "pop", "width=600, height=400, scrollbars=no");
+      return false;
     });
 
     function isTouchDevice() {

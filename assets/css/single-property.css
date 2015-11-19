@@ -228,6 +228,12 @@ h3.title:before {
   text-decoration: none;
 }
 
+.btn-primary#button-share-fb {
+  color: #ffffff;
+  background-color: #3b5998;
+  border-color: #3b5998;
+}
+
 @media screen and (min-width: 768px) {
   .block {
     padding: 60px 0;

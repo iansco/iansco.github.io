@@ -234,6 +234,10 @@ h3.title:before {
   border-color: #3b5998;
 }
 
+#link-share-line {
+    display: none;
+}
+
 @media screen and (min-width: 768px) {
   .block {
     padding: 60px 0;

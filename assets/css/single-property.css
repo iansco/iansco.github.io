@@ -162,6 +162,10 @@ h3.title:before {
     padding-right: 5px;
 }
 
+#rooms .icon-check {
+    color: #66CD00;
+}
+
 #gallery #blueimp-gallery h3.title:before {
 	content: "";
 }
